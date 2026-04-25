@@ -14,12 +14,18 @@
 ```
 qt-tutorial-tw/
 └── examples/
-    └── 01-hello-world/
+    ├── 01-hello-world/
+    │   ├── CMakeLists.txt
+    │   ├── main.cpp
+    │   ├── helloworld.h
+    │   ├── helloworld.cpp
+    │   └── helloworld.ui
+    └── 02-signals-slots/
         ├── CMakeLists.txt
         ├── main.cpp
-        ├── helloworld.h
-        ├── helloworld.cpp
-        └── helloworld.ui
+        ├── signalsslots.h
+        ├── signalsslots.cpp
+        └── signalsslots.ui
 ```
 
 ## 編譯與執行
@@ -49,8 +55,9 @@ open build/01-hello-world.app
 | 編號 | 範例名稱 | 說明 |
 |------|---------|------|
 | 01 | [hello-world](examples/01-hello-world) | 建立第一個 Qt 視窗應用程式，認識 `QApplication`、`QMainWindow` 與 `.ui` 檔案 |
+| 02 | [signals-slots](examples/02-signals-slots) | Qt 最核心的事件溝通機制：函式指標式 `connect()`、自訂 signal、lambda slot |
 
-> 後續範例會陸續新增，例如 Signals & Slots、Layouts、Model/View、QML 等主題。
+> 後續範例會陸續新增，例如 Layouts、Model/View、QML 等主題。
 
 ## 授權
 
