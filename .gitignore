@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Build output
+build/
+build-*/
+
+# Qt Creator
+*.user
+*.user.*
+CMakeLists.txt.user*
+
+# IDE
+.vscode/
+.idea/
