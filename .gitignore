@@ -13,3 +13,7 @@ CMakeLists.txt.user*
 # IDE
 .vscode/
 .idea/
+
+# Local planning tools (not version-controlled)
+openspec/
+.claude/
